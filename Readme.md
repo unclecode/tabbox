@@ -1,0 +1,5 @@
+The "Export Tabs as Text File" Chrome extension allows you to quickly and easily save a list of URLs for all the active tabs in your current Chrome window. With just a single click, the extension will gather the URLs of all your active tabs and export them as a text file that you can save to your computer.
+
+To use the extension, simply click on the "Export Tabs as Text File" button in the popup window that appears when you click on the extension icon. The extension will then generate a text file containing the URLs of all your active tabs, which you can save to your computer by specifying a filename and a location.
+
+This extension is useful for people who often work with multiple tabs open at the same time and need a quick and easy way to save a list of URLs for later reference. It can also be used to quickly generate a list of URLs for sharing or collaborating with others.

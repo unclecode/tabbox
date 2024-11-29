@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./popup.css" />
+        <title>TabBox</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>TabBox</h1>
+        </div>
+        <div class="content">
+            <textarea id="url-textarea" rows="20" placeholder="URLs will appear here..."></textarea>
+            <div class="buttons" style="display: flex; justify-content: space-between; gap: 10px;">
+                <button id="copy-clipboard">Copy</button>
+                <button id="export-file">Export</button>
+            </div>
+        </div>
+        <!-- <div class="settings">
+            <h3>Settings</h3>
+            <label for="home-dir">Set Home Directory:</label>
+            <input type="text" id="home-dir" placeholder="Default: Downloads" /> 
+            <label for="shortcut-key">Shortcut Key:</label>
+            <input type="text" id="shortcut-key" value="Ctrl+Shift+Y" disabled />
+        </div> -->
+        <script src="./popup.js" type="module"></script>
+    </body>
+</html>
