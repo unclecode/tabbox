@@ -1,5 +1,34 @@
-The "Export Tabs as Text File" Chrome extension allows you to quickly and easily save a list of URLs for all the active tabs in your current Chrome window. With just a single click, the extension will gather the URLs of all your active tabs and export them as a text file that you can save to your computer.
+# TabBox: Your Tab Management Solution
 
-To use the extension, simply click on the "Export Tabs as Text File" button in the popup window that appears when you click on the extension icon. The extension will then generate a text file containing the URLs of all your active tabs, which you can save to your computer by specifying a filename and a location.
+## The Problem
+Managing tabs is a common struggle. As knowledge workers, we often keep numerous tabs open for reference, research, and ongoing tasks. While tab management extensions help organize them, we need a better way to:
+- Preserve URLs for future reference
+- Search through our browsing history meaningfully
+- Access and understand saved content easily
+- Keep our knowledge organized and searchable
 
-This extension is useful for people who often work with multiple tabs open at the same time and need a quick and easy way to save a list of URLs for later reference. It can also be used to quickly generate a list of URLs for sharing or collaborating with others.
+TabBox is the first step toward solving this. Future versions will include:
+- Content crawling and summarization
+- AI-powered search interface
+- Knowledge base creation from saved URLs
+- Conversational interface to interact with saved content
+
+## Current Features
+- Instantly capture all open tab URLs with Command+Shift+Y (Mac) or Ctrl+Shift+Y (Windows)
+- Auto-copy URLs to clipboard
+- Export URLs to text file
+- Customizable save directory
+- Clean, minimal interface
+
+## Installation
+1. Download/clone this repository
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable "Developer mode" (top-right toggle)
+4. Click "Load unpacked"
+5. Select the downloaded extension directory
+6. Ready to use! Try Command+Shift+Y to capture your tabs
+
+## Usage
+1. Press Command+Shift+Y (Mac) or Ctrl+Shift+Y (Windows) in any window to capture URLs
+2. Click the TabBox icon to view saved URLs
+3. Use "Copy to Clipboard" or "Export to Text File" as needed
